@@ -13,7 +13,7 @@ Run the commond
 pod install
 ```
 
-Once completed, run the command 
+Once completed, run the command (Can be skipped as code contains installed pod and api key)
 
 ```bash
 open NYTopStories.xcworkspace
