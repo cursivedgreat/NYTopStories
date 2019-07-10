@@ -43,5 +43,8 @@ It has a class method `open(path dbPath: String) throws -> SQLiteDatabase` that 
 ## Common.swift
 This file can be considered be a common place of the global variable and functions.
 
+## Ballpark Code
+Current `Database.swift`, `RequestManager.swift`, `URLSessionMock.swift` etc can be ballpark code to quickely start any project.
+
 ## Licence
 [MIT](https://choosealicense.com/licenses/mit/)
