@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B91192000439A43AF1F60DA7 /* Pods_NYTopStories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92552A0E190FC9E7CDBFD9E /* Pods_NYTopStories.framework */; };
-		BB10BD4222D65BA1003333F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BB10BD4122D65BA1003333F0 /* README.md */; };
 		BB665E7422D3D25700897204 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB665E7322D3D25700897204 /* ViewModel.swift */; };
 		BB665E7622D3E7D500897204 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB665E7522D3E7D500897204 /* ListViewController.swift */; };
 		BB665E7922D3F10300897204 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB665E7822D3F10300897204 /* ListCell.swift */; };
@@ -27,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		B92552A0E190FC9E7CDBFD9E /* Pods_NYTopStories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTopStories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB10BD4122D65BA1003333F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = NYTopStories/README.md; sourceTree = "<group>"; };
 		BB665E7322D3D25700897204 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		BB665E7522D3E7D500897204 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BB665E7822D3F10300897204 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
@@ -77,6 +75,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB10BD4322D6623F003333F0 /* Section Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BB665E7A22D3F89C00897204 /* DetailViewController.swift */,
+				BB665E7522D3E7D500897204 /* ListViewController.swift */,
+				BB665E7222D3D23200897204 /* ViewModel */,
+				BB665E7722D3F0CC00897204 /* Cells */,
+			);
+			path = "Section Feed";
+			sourceTree = "<group>";
+		};
 		BB665E7222D3D23200897204 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +105,6 @@
 		BBB3063C22D3BD0400B5905A = {
 			isa = PBXGroup;
 			children = (
-				BB10BD4122D65BA1003333F0 /* README.md */,
 				BBCF167522D5225800698168 /* appdb.db */,
 				BBB3064722D3BD0400B5905A /* NYTopStories */,
 				BBB3064622D3BD0400B5905A /* Products */,
@@ -116,16 +124,13 @@
 		BBB3064722D3BD0400B5905A /* NYTopStories */ = {
 			isa = PBXGroup;
 			children = (
-				BB665E7722D3F0CC00897204 /* Cells */,
+				BB10BD4322D6623F003333F0 /* Section Feed */,
 				BBB3064822D3BD0400B5905A /* AppDelegate.swift */,
-				BB665E7A22D3F89C00897204 /* DetailViewController.swift */,
-				BB665E7522D3E7D500897204 /* ListViewController.swift */,
 				BBB3064C22D3BD0400B5905A /* Main.storyboard */,
 				BBB3064F22D3BD0600B5905A /* Assets.xcassets */,
 				BBB3065122D3BD0600B5905A /* LaunchScreen.storyboard */,
 				BBB3065422D3BD0600B5905A /* Info.plist */,
 				BBCF166E22D4B27700698168 /* Database */,
-				BB665E7222D3D23200897204 /* ViewModel */,
 				BBB3065A22D3BD8300B5905A /* Request Manager */,
 				BBB3065D22D3C5CC00B5905A /* Mock */,
 				BBCF167122D4CBD900698168 /* Common.swift */,
@@ -220,7 +225,6 @@
 			files = (
 				BBB3065322D3BD0600B5905A /* LaunchScreen.storyboard in Resources */,
 				BBB3065022D3BD0600B5905A /* Assets.xcassets in Resources */,
-				BB10BD4222D65BA1003333F0 /* README.md in Resources */,
 				BBB3064E22D3BD0400B5905A /* Main.storyboard in Resources */,
 				BBCF167622D5225800698168 /* appdb.db in Resources */,
 			);

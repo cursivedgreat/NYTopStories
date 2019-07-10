@@ -174,7 +174,7 @@ extension SQLiteDatabase {
     ///
     /// - Returns: Decoded Response from table.
     /// - Throws: Propagates the error if any.
-    private func query() throws -> ApiResponse {
+    func query() throws -> ApiResponse {
         var response = ApiResponse()
         let queryStatement = try prepareStatement(sql: Response.getTableStatement)
         defer {
