@@ -7,13 +7,13 @@ NYTopStories is an iOS app which list down articles from your favorite section.
 ## Steps to run
 
 Download and unzip. In your terminal move to app folder.
-Run the commond
+Run the commond (Can be skipped as code contains installed pod and api key)
 
 ```bash
 pod install
 ```
 
-Once completed, run the command (Can be skipped as code contains installed pod and api key)
+Once completed, run the command 
 
 ```bash
 open NYTopStories.xcworkspace
