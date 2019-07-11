@@ -38,13 +38,13 @@ It has a class method `open(path dbPath: String) throws -> SQLiteDatabase` that 
 `RequestManager.swift` is a single class that can be expanded to handle all network related call.
 
 ## API Call Mock
-`URLSessionMock.swift` has all the ingredient to mock a network call with hitting actual network.
+`URLSessionMock.swift` has all the ingredient to mock a network call without hitting actual network.
 
 ## Common.swift
 This file can be considered be a common place of the global variable and functions.
 
-## Ballpark Code
-Current `Database.swift`, `RequestManager.swift`, `URLSessionMock.swift` etc can be ballpark code to quickely start any project.
+## Stub Code
+Current `Database.swift`, `RequestManager.swift`, `URLSessionMock.swift` etc can be used as stubs code to quickely start any project.
 
 ## Licence
 [MIT](https://choosealicense.com/licenses/mit/)
